@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jackson MI Bus Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚌</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <h1>Jackson MI Bus Tracker</h1>
+    <div class="location-container">
+      <button id="get-location">Find Nearest Bus Stop</button>
+      <div id="location-status"></div>
+    </div>
+    <div class="results">
+      <h2>Nearest Bus Stop</h2>
+      <div id="nearest-stop"></div>
+      <h2>Next Arrival</h2>
+      <div id="next-arrival"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
